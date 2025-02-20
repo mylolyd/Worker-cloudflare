@@ -20,7 +20,8 @@ export default {
               photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuV_Xd5E10Hy4pVbYuMgYnA7iuk0XYNjKYwwH4XDGlfRvdGhteN6emetI&s=10",
               caption: "cit-cit cit-cit-cit 🐥",
               reply_markup: {
-                keyboard: [[{ text: "🐭 Squeak" }]],
+                keyboard: [{ text: "🐥 CIT-CIT", request_user: { request_id: 1 } }]
+            ],
                 resize_keyboard: true,
                 one_time_keyboard: false
               }
